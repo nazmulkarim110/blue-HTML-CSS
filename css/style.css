@@ -61,3 +61,70 @@ header{
 
 }
 /* header end */
+/* banner start*/
+
+.banner{
+    background-image: url(../images/sky.jpg);
+    background-repeat: no-repeat;       /* repeat if img small thn defined */
+    background-size: cover;             /* stretch img rght-lft full width */
+    -webkit-background-size: cover;     /* browser support css- chrom ++*/
+    -moz-background-size: cover;        /* browser support css- mozilla*/
+    background-position: center;        /* focus img ; top right etc.*/
+    }
+
+.banner_content{
+    width: 40%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    background-color: rgba(11, 11, 11, .2);
+    padding: 35px 45px;
+    border-radius: 5px;
+}
+
+.banner_content h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    margin: 0;
+}
+.banner_content h2{
+    font-family: sans-serif;
+    font-size: 38px;
+    color: #0076BE;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.banner_content p{
+    width: 70%;
+    font-family: sans-serif;
+    color: white;
+    margin: 5px 0;
+    line-height: 25px;
+
+   
+}
+.banner_content button{
+    width: 200px;
+    height: 40px;
+    margin-top: 22px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+    text-transform: uppercase;
+    color: #5A5A5A;
+    border: 0;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.banner_content button:focus{
+    outline: 0;
+}
+.banner_content button:hover{
+    color: #0377BD;
+}
+
+/* banner end */
