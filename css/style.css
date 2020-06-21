@@ -64,7 +64,7 @@ header{
 /* banner start*/
 
 .banner{
-    background-image: url(../images/sky.jpg);
+    background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;       /* repeat if img small thn defined */
     background-size: cover;             /* stretch img rght-lft full width */
     -webkit-background-size: cover;     /* browser support css- chrom ++*/
