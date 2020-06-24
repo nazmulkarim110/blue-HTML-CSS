@@ -228,8 +228,6 @@ header{
     padding: 15px 15px 0px 15px;
     margin: 15px 15px 0px 15px;
 }
-
-}
 .testimonial{
     width: 26%;
     color: #AEADB3;
@@ -237,7 +235,6 @@ header{
     margin-left: 20px;
     padding-left: 20px;
 }
-
 .testimonial h2{
     color: #AEADB3;
     font-weight: 400;
@@ -247,20 +244,17 @@ header{
 .tt_t{
     color: #0178BC;
 }
-
 .testimonial p{
     color: #AEADB3;
     line-height: 1.5;
     padding: 15px;
 }
-
 .mobile{
     width: 10%;
     float: left;
     margin-left: 30px 0 30px 30px;
     padding: 25px 15px 0px 50px;
 }
-
 .appstore{
     width: 15%;
     float: left;
@@ -286,13 +280,7 @@ header{
     margin:0;
 }
 
-
-
-
 /* Address end*/
-
-
-
 /* Footer start*/
 
 footer{
@@ -300,8 +288,6 @@ footer{
     min-height: 120px;
     overflow: hidden;
 }
-
-
 footer wrapper{
     width: 70%;
 }
@@ -332,14 +318,11 @@ footer wrapper{
     padding: 0px 30px;
     border-right: 1px solid white;
 }
-
 .footer_links ul li:last-child{
     border-right: 10px;
 }
-
 .footer_links p{
     color: white;
-
 }
 .footer_logos{
     display: inline-block;
@@ -349,7 +332,6 @@ footer wrapper{
     width: 0 auto;
     float: left;
 }
-
 .copyright{
     font-family: sans-serif;
     margin-bottom: 30px;
