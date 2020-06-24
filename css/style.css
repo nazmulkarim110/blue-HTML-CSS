@@ -128,79 +128,6 @@ header{
 
 /* banner end */
 
-/* Service start */
-
-.service{
-   background-color: #121B2C;
-   padding: 30px 0 10px;
-
-}
-.single{
-    width: 29%;
-    border-right: 1px solid white;
-    padding: 20px 2.1% 30px;
-    float: left;
-}
-
-.single:last-child{
-    margin-right: 0;
-    border-right: 0;
-}
-
-.top{
-    overflow: hidden;
-}
-.t_img{
-    width: 25%;
-    float: left;
-}
-.t_img img{
-    width: 100%
-}
-.t_text{
-    width: 60%;
-    float: left;
-    margin-top: 14px;
-}
-.t_text h2{
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size:25px;
-    color: white;
-    margin:0;
-}
-
-.t_text h2:last-child{
-    margin-top: 50px;
-}
-
-.t_text h3{
-    font-family: sans-serif;
-    font-size: 23px;
-    color: #0178BC;
-    margin: 0;
-}
-
-.bottom{
-    margin-top: 20px;
-}
-.bottom p{
-    font-family: sans-serif;
-    color: white;
-    margin: 0;
-    line-height: 25px;
-    padding-right: 116px;
-}
-
-.system{
-    color: #0072B3;
-    font-weight: 700;
-}
-
-
-/* Service end */
-
-
 /* Address start*/
 
 .last{
@@ -214,7 +141,6 @@ header{
 
 .address{
     width: 25%;
-    padding: 15px 15px 0px 15px;
     color: #AEADB3;
     float: left;
     margin-left: 30px;
@@ -222,12 +148,20 @@ header{
 }
 
 .address h2{
-    .testimonial h2{
     color: #AEADB3;
     font-weight: 400;
-    padding: 15px 15px 0px 15px;
-    margin: 15px 15px 0px 15px;
+    padding: 17px 15px 0px 15px;
+    margin: 15px 10px 0px 15px;
+    
 }
+
+.address p{
+    color: #AEADB3;
+    font-weight: 400;
+    padding: 0 10px;
+    
+}
+
 .testimonial{
     width: 26%;
     color: #AEADB3;
@@ -235,6 +169,7 @@ header{
     margin-left: 20px;
     padding-left: 20px;
 }
+
 .testimonial h2{
     color: #AEADB3;
     font-weight: 400;
@@ -244,17 +179,46 @@ header{
 .tt_t{
     color: #0178BC;
 }
+
 .testimonial p{
     color: #AEADB3;
     line-height: 1.5;
     padding: 15px;
 }
+
+/* shape 
+
+#talkbubble {
+    width: 120px;
+    height: 80px;
+    background: red;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    }
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid red;
+    border-bottom: 13px solid transparent;
+}
+
+*/
+
+
 .mobile{
     width: 10%;
     float: left;
     margin-left: 30px 0 30px 30px;
     padding: 25px 15px 0px 50px;
 }
+
 .appstore{
     width: 15%;
     float: left;
@@ -280,7 +244,13 @@ header{
     margin:0;
 }
 
+
+
+
 /* Address end*/
+
+
+
 /* Footer start*/
 
 footer{
@@ -288,6 +258,8 @@ footer{
     min-height: 120px;
     overflow: hidden;
 }
+
+
 footer wrapper{
     width: 70%;
 }
@@ -318,11 +290,14 @@ footer wrapper{
     padding: 0px 30px;
     border-right: 1px solid white;
 }
+
 .footer_links ul li:last-child{
     border-right: 10px;
 }
+
 .footer_links p{
     color: white;
+
 }
 .footer_logos{
     display: inline-block;
@@ -332,6 +307,7 @@ footer wrapper{
     width: 0 auto;
     float: left;
 }
+
 .copyright{
     font-family: sans-serif;
     margin-bottom: 30px;
